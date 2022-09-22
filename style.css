@@ -31,6 +31,7 @@ body {
   font-weight: 400;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 .profile-card-component {
@@ -40,6 +41,28 @@ body {
   border-radius: 0.9375rem;
   margin: auto;
   position: relative;
+}
+
+.profile-card-component::before {
+  content: "";
+  background-image: url(./images/bg-pattern-top.svg);
+  width: 978px;
+  height: 978px;
+  position: absolute;
+  bottom: 6.25rem;
+  right: 10rem;
+  z-index: -1;
+}
+
+.profile-card-component::after {
+  content: "";
+  background-image: url(./images/bg-pattern-bottom.svg);
+  width: 978px;
+  height: 978px;
+  position: absolute;
+  top: 10rem;
+  left: 6.25rem;
+  z-index: -1;
 }
 
 .user__background-pattern {
