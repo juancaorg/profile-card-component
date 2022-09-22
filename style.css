@@ -70,7 +70,7 @@ body {
 }
 
 .user__location {
-  color: var(--clr-dark-gray);
+  color: var(--clr-dark-grayish-blue);
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.0625rem;
