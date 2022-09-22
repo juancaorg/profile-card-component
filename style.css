@@ -117,10 +117,10 @@ body {
 }
 
 .attribution a {
-  color: blue;
+  color: var(--clr-light-gray);
   text-decoration: none;
 }
 
 .attribution a:hover {
-  color: whitesmoke;
+  color: blue;
 }
