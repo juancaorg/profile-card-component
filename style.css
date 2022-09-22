@@ -50,8 +50,23 @@ body {
   width: 6rem;
   position: absolute;
   left: calc(50% - 6rem / 2);
-  top: calc(50% - 6rem / 2 - 32px);
+  top: calc(50% - 6rem / 2 - 47px);
   z-index: 1;
+}
+
+.user__name {
+  color: var(--clr-very-dark-desaturated-blue);
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  margin-top: 4.5rem;
+}
+
+.user__age {
+  color: var(--clr-dark-grayish-blue);
+  font-weight: 400;
+  margin-left: 0.5rem;
 }
 
 .attribution {
