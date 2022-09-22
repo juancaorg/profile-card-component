@@ -31,7 +31,8 @@ body {
   font-weight: 400;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .profile-card-component {
