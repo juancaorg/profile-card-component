@@ -17,11 +17,25 @@
   /* Neutral color. */
   --clr-dark-gray: hsl(0, 0%, 59%);
   /* Fonts. */
-  --ff-primary-400: 400 "Kumbh Sans", sans-serif;
-  --ff-primary-700: 700 "Kumbh Sans", sans-serif;
+  --ff-primary: "Kumbh Sans", sans-serif;
 }
 
 body {
   min-height: 100vh;
   background-color: var(--clr-dark-blue);
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card-component {
+  max-width: 326px;
+  background-color: white;
+  margin: auto;
+}
+
+.attribution {
+  margin-bottom: 1rem;
+  text-align: center
 }
