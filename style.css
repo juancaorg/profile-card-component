@@ -67,6 +67,7 @@ body {
 
 .user__background-pattern {
   border-radius: 0.9375rem 0.9375rem 0 0;
+  object-fit: cover;
   height: min(100vh, 140px);
   width: 100%;
 }
